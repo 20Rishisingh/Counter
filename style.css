@@ -1,0 +1,88 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body{
+   height: 100%;
+}
+
+body{
+   background: linear-gradient(
+      145deg, 
+      rgb(104, 233, 238) 0%,
+      rgb(245, 51, 129) 100%
+   );
+}
+
+.container{
+   border: dashed 2px darkcyan;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+
+.card{
+   background: linear-gradient(
+      135deg, 
+      rgb(27, 243, 8) 20%,
+      rgb(55, 10, 236) 100%
+   );
+   padding: 30px;
+   border-radius: 15px;
+   text-align: center;
+}
+
+.card h2{
+   color:brown;
+   font-size: 30px;
+   font-weight: bold;
+   padding-bottom: 18px;
+}
+
+.card h1{
+   margin: 30px;
+   font-size: 55px;
+}
+
+.card button{
+   border-radius: 50px;
+   /* background-color: rgb(5, 2, 0); */
+   color: #f8f5f5;
+   padding: 10px 35px;
+   border: dotted 2px yellow;
+   font-size: 15px;
+   font-weight: bold;
+   margin: 0 5px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+button#Inc {
+   background: black;
+}
+
+button#Inc:hover {
+   background: #05f756;
+   color: black;
+}
+
+button#Reset {
+   background:  black;
+}
+
+button#Reset:hover {
+   background: #f8f8f8;
+   color: black;
+}
+
+button#Dec {
+   background: black;
+}
+
+button#Dec:hover {
+   background: #ff411c;
+   color: black;
+}
